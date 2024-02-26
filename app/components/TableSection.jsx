@@ -2,7 +2,7 @@ import React from 'react';
 
 const TableSection = () => {
   return (
-    <div className="overflow-x-auto flex justify-center">
+    <div className="overflow-x-auto flex justify-center mb-4 mt-4">
       <table className="table-auto bg-[#111042] text-white">
         <thead>
           <tr>
@@ -11,7 +11,7 @@ const TableSection = () => {
             <th className="border px-4 py-2" colSpan="2">Foreign authors and delegates</th>
           </tr>
           <tr>
-            <th className="border px-4 py-2"></th>
+            <th className="border px-4 py-2">*Registration fee includes GST</th>
             <th className="border px-4 py-2">Standard Rates</th>
             <th className="border px-4 py-2">Early Bird Rates</th>
             <th className="border px-4 py-2">Standard Rates</th>
@@ -19,13 +19,6 @@ const TableSection = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td className="border px-4 py-2">*Registration fee includes GST</td>
-            <td className="border px-4 py-2">Rs. 12000</td>
-            <td className="border px-4 py-2">Rs. 10000</td>
-            <td className="border px-4 py-2">300$</td>
-            <td className="border px-4 py-2">250$</td>
-          </tr>
           <tr>
             <td className="border px-4 py-2">Industry Professionals</td>
             <td className="border px-4 py-2">Rs. 12000</td>
