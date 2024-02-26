@@ -10,21 +10,14 @@ const Navbar = () => {
 
     return (
         <nav className="bg-#11103D flex justify-between items-center py-4 px-6 lg:px-12" style={{ maxWidth: "100%" }}>
-            <img src="vbit.png" alt="Navbar Logo" className="h-16 lg:mr-4 hidden lg:block" />
+            <img src="vbit2.png" alt="Navbar Logo" className="h-16 lg:mr-4 hidden lg:block" />
             <div className="lg:flex lg:items-center">
                 <button className="hidden lg:inline-block text-white hover:text-gray-300">Home</button>
-                <select className="hidden lg:inline-block mx-2 text-white rounded-md outline-none hover:text-gray-300">
-                    <option value="">Conference</option>
-                    <option value="authors">Authors</option>
-                    <option value="registrations">Registrations</option>
-                    <option value="speakers">Speakers</option>
-                    <option value="committee">Committee</option>
-                    <option value="sponsorships">Sponsorships</option>
-                </select>
-                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">technext</button>
-                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">BOLT 2.0</button>
-                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Visa</button>
-                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Hotels</button>
+                <button className="hidden lg:inline-block text-white hover:text-gray-300 ml-4">About Conference</button>
+                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Online Registrations</button>
+                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Speakers</button>
+                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Committee</button>
+                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Sponsorship</button>
                 <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Contacts</button>
                 <div className="lg:hidden">
                     <button onClick={toggleMenu} className="text-white hover:text-gray-300">
