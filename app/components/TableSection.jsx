@@ -62,7 +62,7 @@ const TableSection = () => {
             <td className="border px-4 py-2">125$</td>
           </tr>
           <tr>
-            <td className="border px-4 py-2">VIT (internal)</td>
+            <td className="border px-4 py-2">VBIT (internal)</td>
             <td className="border px-4 py-2">Rs. 5000</td>
             <td className="border px-4 py-2">Rs. 4000</td>
             <td className="border px-4 py-2">--</td>
