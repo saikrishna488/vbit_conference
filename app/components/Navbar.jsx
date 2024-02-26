@@ -14,7 +14,7 @@ const Navbar = () => {
         <nav className="bg-#11103D flex justify-between items-center py-4 px-6 lg:px-12" style={{ maxWidth: "100%" }}>
             <img src="vbit2.png" alt="Navbar Logo" className="h-16 lg:mr-4 hidden lg:block" />
             <div className="lg:flex lg:items-center">
-                <button className="hidden lg:inline-block text-white hover:text-gray-300">Home</button>
+                <button className="hidden lg:inline-block text-white hover:text-gray-300" onClick={()=> router.push("/")}>Home</button>
                 <button className="hidden lg:inline-block text-white hover:text-gray-300 ml-4">About Conference</button>
                 <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300" onClick={()=>{
                     router.push('/registrations')
