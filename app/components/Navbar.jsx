@@ -1,8 +1,10 @@
 "use client"
 import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const router = useRouter();
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -14,7 +16,9 @@ const Navbar = () => {
             <div className="lg:flex lg:items-center">
                 <button className="hidden lg:inline-block text-white hover:text-gray-300">Home</button>
                 <button className="hidden lg:inline-block text-white hover:text-gray-300 ml-4">About Conference</button>
-                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Online Registrations</button>
+                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300" onClick={()=>{
+                    router.push('/registrations')
+                }}>Online Registrations</button>
                 <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Speakers</button>
                 <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Committee</button>
                 <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Sponsorship</button>

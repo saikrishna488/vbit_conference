@@ -9,11 +9,9 @@ const ButtonSection = () => {
                 <button className="bg-green-700 text-white py-3 px-6 md:py-4 md:px-8 rounded-lg hover:bg-green-600 transition duration-300 w-full">Registration For Foreign Authors/Participants</button>
                 <button className="bg-green-700 text-white py-3 px-6 md:py-4 md:px-8 rounded-lg hover:bg-green-600 transition duration-300 w-full">Hotels</button>
                 <button className="bg-green-700 text-white py-3 px-6 md:py-4 md:px-8 rounded-lg hover:bg-green-600 transition duration-300 w-full">Accommodation Brochure</button>
-                <button className="bg-green-700 text-white py-3 px-6 md:py-4 md:px-8 rounded-lg hover:bg-green-600 transition duration-300 w-full">IEEE ic-ETITE'24 Final Paper Template</button>
+                <button className="bg-green-700 text-white py-3 px-6 md:py-4 md:px-8 rounded-lg hover:bg-green-600 transition duration-300 w-full">IEEE IC-ACIST'24 Final Paper Template</button>
                 <button className="bg-green-700 text-white py-3 px-6 md:py-4 md:px-8 rounded-lg hover:bg-green-600 transition duration-300 w-full">Speakers</button>
                 <button className="bg-green-700 text-white py-3 px-6 md:py-4 md:px-8 rounded-lg hover:bg-green-600 transition duration-300 w-full">Guidelines For IEEE PDF eXpress</button>
-                <button className="bg-green-700 text-white py-3 px-6 md:py-4 md:px-8 rounded-lg hover:bg-green-600 transition duration-300 w-full">BOLT 2.0</button>
-                <button className="bg-green-700 text-white py-3 px-6 md:py-4 md:px-8 rounded-lg hover:bg-green-600 transition duration-300 w-full">TECHNEXT 24</button>
             </div>
         </div>
     );
