@@ -9,7 +9,7 @@ const HeroSection = () => {
             <div className="container mx-auto relative z-10 flex flex-col lg:flex-row items-center">
                 <div className="lg:w-1/2 mb-6 lg:mb-0">
                     <h1 className="text-4xl lg:text-5xl font-bold mb-4">Welcome to VBIT International Conference</h1>
-                    <p className="text-lg mb-4">International Conference on Advances in Computing and Innovation in Science and Technology(IC-ACIST'24) Technology and Engineering (ic-ETITE'24)</p>
+                    <p className="text-lg mb-4">International Conference on Advances in Computing and Innovation in Science and Technology(IC-ACIST'24)</p>
                     <p className="text-lg mb-8">Technically co-sponsored by IEEE</p>
                     <p className="text-lg mb-8">August 08-09, 2024 at VBIT Hyderabad, Telangana ,India</p>
                     <div className="flex flex-col md:flex-row md:space-x-4">
