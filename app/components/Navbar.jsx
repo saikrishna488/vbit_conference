@@ -19,8 +19,8 @@ const Navbar = () => {
                 <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300" onClick={()=>{
                     router.push('/registrations')
                 }}>Online Registrations</button>
-                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Speakers</button>
-                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Committee</button>
+                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300" onClick={()=> router.push("/speakers")}>Speakers</button>
+                <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300" onClick={()=> router.push("/committee")}>Committee</button>
                 <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Sponsorship</button>
                 <button className="hidden lg:inline-block mx-2 text-white hover:text-gray-300">Contacts</button>
                 <div className="lg:hidden">
