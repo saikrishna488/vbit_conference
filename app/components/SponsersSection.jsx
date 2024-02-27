@@ -10,13 +10,13 @@ const SponsorsSection = () => {
                         <img src="/ieee.png" alt="Sponsor 1" className="w-32 md:w-auto" />
                     </div>
                     <div className="flex justify-center items-center">
-                        <img src="/sponsor2.png" alt="Sponsor 2" className="w-32 md:w-auto" />
+                        <img src="/cisco.png" alt="Sponsor 2" className="w-32 md:w-auto" />
                     </div>
                     <div className="flex justify-center items-center">
-                        <img src="/sponsor3.png" alt="Sponsor 3" className="w-32 md:w-auto" />
+                        <img src="/aws.png" alt="Sponsor 3" className="w-32 md:w-auto" />
                     </div>
                     <div className="flex justify-center items-center">
-                        <img src="/sponsor4.png" alt="Sponsor 4" className="w-32 md:w-auto" />
+                        <img src="/aictee.png" alt="Sponsor 4" className="w-32 md:w-auto" />
                     </div>
                     {/* Add more sponsors as needed */}
                 </div>

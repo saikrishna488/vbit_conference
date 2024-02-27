@@ -12,6 +12,7 @@
 
 body{
   background-color: rgb(17, 16, 61);
+  user-select: none;
   
 }
 select {
