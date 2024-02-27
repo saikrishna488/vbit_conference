@@ -12,8 +12,14 @@
 
 body{
   background-color: rgb(17, 16, 61);
+}
+
+nav{
   user-select: none;
-  
+}
+
+.contacts{
+  user-select:auto;
 }
 select {
   background-color: rgb(17, 16, 61);

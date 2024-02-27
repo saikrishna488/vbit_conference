@@ -31,13 +31,14 @@ const Navbar = () => {
             <nav className='bg-[#111042] p-5 flex justify-center items-center gap-5 '>
                 <img src="vbit2.png" className='h-14' alt="" />
                 <ul className='flex text-white gap-5'>
-                    <li className='cursor-pointer' onClick={() => router.push("/")}>Home</li>
-                    <li className='cursor-pointer' >About conference</li>
-                    <li className='cursor-pointer' onClick={() => router.push("/registrations")}>Online Registrations</li>
-                    <li className='cursor-pointer' onClick={() => router.push("/speakers")}>Speakers</li>
-                    <li className='cursor-pointer' onClick={() => router.push("/committee")}>Committee</li>
-                    <li className='cursor-pointer'>Sponsorship</li>
-                    <li className='cursor-pointer' onClick={() => router.push("/contacts")}>Contacts</li>
+                    <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/")}>Home</li>
+                    <li className='cursor-pointer hover:text-blue-500' >About conference</li>
+                    <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/registrations")}>Online Registrations</li>
+                    <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/speakers")}>Speakers</li>
+                    <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/committee")}>Committee</li>
+                    <li className='cursor-pointer hover:text-blue-500'>Sponsorship</li>
+                    <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/contacts")}>Contacts</li>
+
                 </ul>
                 <img src="ieee.png" className='h-14' alt="" />
             </nav>
@@ -56,13 +57,14 @@ const Navbar = () => {
 
                 {menu ? (
                     <ul className='flex flex-col items-start w-full p-4 text-white gap-5'>
-                        <li className='cursor-pointer' onClick={() => router.push("/")}>Home</li>
-                        <li className='cursor-pointer' >About conference</li>
-                        <li className='cursor-pointer' onClick={() => router.push("/registrations")}>Online Registrations</li>
-                        <li className='cursor-pointer' onClick={() => router.push("/speakers")}>Speakers</li>
-                        <li className='cursor-pointer' onClick={() => router.push("/committee")}>Committee</li>
-                        <li className='cursor-pointer'>Sponsorship</li>
-                        <li className='cursor-pointer' onClick={() => router.push("/contacts")}>Contacts</li>
+                        <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/")}>Home</li>
+                        <li className='cursor-pointer hover:text-blue-500' >About conference</li>
+                        <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/registrations")}>Online Registrations</li>
+                        <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/speakers")}>Speakers</li>
+                        <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/committee")}>Committee</li>
+                        <li className='cursor-pointer hover:text-blue-500'>Sponsorship</li>
+                        <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/contacts")}>Contacts</li>
+
                     </ul>
                 ) : null}
 
