@@ -6,7 +6,7 @@ const Contacts = () => {
             <h2 className="text-orange-500 text-2xl font-bold mb-4">Get in touch with us</h2>
             <div className="mb-8">
                 <h3 className="text-blue-900 font-semibold mb-2">Conference Chair</h3>
-                <p className="text-gray-700 mb-2">Dr. Sreeram</p>
+                <p className="text-gray-700 mb-2">Dr. G Sreeram</p>
                 <p className="text-gray-700 mb-2">Professor, VBIT, Hyderabad</p>
                 <p className="text-gray-700 flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
@@ -23,7 +23,7 @@ const Contacts = () => {
             </div>
             <div className="mb-8">
                 <h3 className="text-blue-900 font-semibold mb-2">Organizing Secretary</h3>
-                <p className="text-gray-700 mb-2">Dr. Sreeram</p>
+                <p className="text-gray-700 mb-2">Dr. G Sreeram</p>
                 <p className="text-gray-700 mb-2">Professor, VBIT, Hyderabad</p>
                 <p className="text-gray-700 flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
@@ -40,7 +40,7 @@ const Contacts = () => {
             </div>
             <div className="mb-8">
                 <h3 className="text-blue-900 font-semibold mb-2">Publication Chair</h3>
-                <p className="text-gray-700 mb-2">Dr. Sreeram</p>
+                <p className="text-gray-700 mb-2">Dr. G Sreeram</p>
                 <p className="text-gray-700 mb-2">Professor, VBIT, Hyderabad</p>
                 <p className="text-gray-700 flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
@@ -57,7 +57,7 @@ const Contacts = () => {
             </div>
             <div className="mb-8">
                 <h3 className="text-blue-900 font-semibold mb-2">Finance Chair</h3>
-                <p className="text-gray-700 mb-2">Dr. Sreeram</p>
+                <p className="text-gray-700 mb-2">Dr. G Sreeram</p>
                 <p className="text-gray-700 mb-2">Professor, VBIT, Hyderabad</p>
                 <p className="text-gray-700 flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">

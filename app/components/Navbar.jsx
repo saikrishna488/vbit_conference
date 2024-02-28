@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,7 @@ const Navbar = () => {
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/registrations")}>Online Registrations</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/speakers")}>Speakers</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/committee")}>Committee</li>
-                    <li className='cursor-pointer hover:text-blue-500'>Sponsorship</li>
+                    <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/sponsorships")}>Sponsorship</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/contacts")}>Contacts</li>
 
                 </ul>
@@ -51,7 +52,7 @@ const Navbar = () => {
                 <div className='flex items-center justify-between gap-10 w-full'>
                     <img src="vbit2.png" className='h-14' alt="" />
                     <div className='cursor-pointer text-white' onClick={() => setMenu(!menu)}>
-                        Menu
+                    <GiHamburgerMenu  size={30}/>
                     </div>
                 </div>
 
@@ -62,7 +63,7 @@ const Navbar = () => {
                         <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/registrations")}>Online Registrations</li>
                         <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/speakers")}>Speakers</li>
                         <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/committee")}>Committee</li>
-                        <li className='cursor-pointer hover:text-blue-500'>Sponsorship</li>
+                        <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/sponsorships")}>Sponsorship</li>
                         <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/contacts")}>Contacts</li>
 
                     </ul>
