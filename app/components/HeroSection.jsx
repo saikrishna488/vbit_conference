@@ -1,6 +1,10 @@
+"use client";
 import React from 'react';
+import { useRouter } from 'next/navigation';
 
 const HeroSection = () => {
+
+    const router = useRouter();
     return (
         <div className="relative bg-cover bg-center bg-gradient-to-r from-purple-800 to-purple-600 text-white py-20 px-6 md:px-12" style={{backgroundImage: `url("/vbit_bg.jpeg")`}}>
             {/* Overlay for text */}
@@ -14,7 +18,7 @@ const HeroSection = () => {
                     <p className="text-lg mb-8">August 08-09, 2024 at VBIT Hyderabad, Telangana ,India</p>
                     <div className="flex flex-col md:flex-row md:space-x-4">
                         <button className="bg-white text-purple-800 px-6 py-3 rounded-full hover:bg-purple-300 hover:text-white transition duration-300 mb-2 md:mb-0">Download Brochure</button>
-                        <button className="bg-white text-purple-800 px-6 py-3 rounded-full hover:bg-purple-300 hover:text-white transition duration-300 mb-2 md:mb-0">Presentation Guidelines</button>
+                        <button className="bg-white text-purple-800 px-6 py-3 rounded-full hover:bg-purple-300 hover:text-white transition duration-300 mb-2 md:mb-0" onClick={()=> router.push('/guidelines')}>Presentation Guidelines</button>
                     </div>
                 </div>
             </div>
