@@ -33,7 +33,7 @@ const Navbar = () => {
                 <img src="vbit2.png" className='h-14' alt="" />
                 <ul className='flex text-white gap-5'>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/")}>Home</li>
-                    <li className='cursor-pointer hover:text-blue-500' >About conference</li>
+                    <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/conference")}>About conference</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/registrations")}>Online Registrations</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/speakers")}>Speakers</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/committee")}>Committee</li>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 {menu ? (
                     <ul className='flex flex-col items-start w-full p-4 text-white gap-5'>
                         <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/")}>Home</li>
-                        <li className='cursor-pointer hover:text-blue-500' >About conference</li>
+                        <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/conference")}>About conference</li>
                         <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/registrations")}>Online Registrations</li>
                         <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/speakers")}>Speakers</li>
                         <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/committee")}>Committee</li>
