@@ -4,7 +4,6 @@ const CommitteeSection = () => {
     return (
         <div className="bg-white py-8 px-4">
             <h2 className="text-orange-500 text-2xl font-bold mb-4">Organizing Committee</h2>
-
             <div className="mb-6">
                 <div className="flex justify-between">
                     <div className="w-1/2 pr-2">
@@ -31,7 +30,6 @@ const CommitteeSection = () => {
                         <p>J P Das</p>
                         <p>Rajkumar Singh Rathore</p>
                         <p>Dr. Prasad Chetti, Northwest Missouri State University, USA</p>
-
                     </div>
                     <div className="w-1/2 pl-2">
                         <h3 className="text-orange-500 text-lg font-semibold">Patrons</h3>
