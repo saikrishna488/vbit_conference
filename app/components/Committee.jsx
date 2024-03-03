@@ -51,11 +51,11 @@ const CommitteeSection = () => {
                 <div className="flex justify-between">
                     <div className="w-1/2 pr-2">
                         <h3 className="text-orange-500 text-lg font-semibold">Organising Chair</h3>
-                        <p>Dr. Sumathy S, Professor & Dean, SCORE, VIT, Vellore</p>
+                        <p>Dr. G Sreeram, Professor, VBIT</p>
                     </div>
                     <div className="w-1/2 pl-2">
                         <h3 className="text-orange-500 text-lg font-semibold">Organising Co-chair</h3>
-                        <p>Dr. Dhinesh Babu. L. D, Professor & Associate Dean, SCORE, VIT, Vellore</p>
+                        <p>Dr. G Sreeram, Professor, VBIT</p>
                     </div>
                 </div>
             </div>
