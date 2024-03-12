@@ -8,6 +8,7 @@ const ImageBar = () => {
       <img src="/ugc.png" alt="Image 3" className="h-6 sm:pb-4 sm:h-6 md:h-24 lg:h-28 xl:h-32 ml-4" />
       <img src="/nba.webp" alt="Image 4" className="h-6 sm:pb-4 sm:h-6 md:h-24 lg:h-28 xl:h-32 ml-4" />
       <img src="naac.jpeg" alt="Image 5" className="h-6 sm:pb-4 sm:h-6 md:h-24 lg:h-28 xl:h-32 ml-4" />
+      <img src="springer.jpg" alt="Image 5" className="h-6 sm:pb-4 sm:h-6 md:h-24 lg:h-28 xl:h-32 ml-4" />
     </div>
   );
 };

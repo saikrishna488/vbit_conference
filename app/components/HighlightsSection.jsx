@@ -7,8 +7,7 @@ const HighlightsSection = () => {
                 <div className="md:w-1/2 md:mr-6">
                     <h2 className="text-3xl font-bold text-orange-500 mb-4">Highlights of IC-ACIST'24</h2>
                     <ul className="list-disc">
-                        <li>All the presented papers were published in the IEEE Xplore by the IEEE.</li>
-                        <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                        <li>All the presented papers were published in the Springer.</li>
                         
                     </ul>
                 </div>

@@ -7,7 +7,7 @@ const SponsorsSection = () => {
                 <h2 className="text-3xl font-bold text-center mb-8">Our Sponsors</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div className="flex justify-center items-center">
-                        <img src="/ieee.png" alt="Sponsor 1" className="w-32 md:w-auto" />
+                        <img src="/springer.jpg" alt="Sponsor 1" className="w-32 md:w-auto" />
                     </div>
                     <div className="flex justify-center items-center">
                         <img src="/cisco.png" alt="Sponsor 2" className="w-32 md:w-auto" />

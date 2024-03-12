@@ -16,12 +16,6 @@ const AboutVBITSection = () => {
                         VBIT College has consistently ranked among the top engineering colleges in the country. It is accredited by reputable organizations and maintains high standards of quality education. The college's commitment to excellence has earned it recognition and accolades from various quarters.
                     </p>
                 </div>
-                <div>
-                    <h2 className="text-3xl font-bold text-white mb-4">About IEEE Information Theory Society, VBIT</h2>
-                    <p className="text-lg text-white">
-                        The IEEE Information Theory Society at VBIT is dedicated to promoting research and education in the field of information theory. It provides a platform for students and professionals to exchange ideas, collaborate on projects, and stay updated with the latest developments in the field. The society organizes workshops, seminars, and conferences to foster learning and innovation.
-                    </p>
-                </div>
             </div>
         </div>
     );
