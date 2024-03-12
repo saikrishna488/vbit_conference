@@ -5,8 +5,8 @@ const TitleBar = () => {
     <div className="flex flex-col lg:flex-row items-center bg-white sm:pt-5 pt-5 lg:">
       <div className="lg:w-3/4 lg:mr-4">
         <p className="text-lg lg:text-xl font-medium text-center">
-          7th International Conference on Intelligent Computing and Communication ICICC-2024<br />
-          <span className='text-orange-500'>30th & 31st August 2024</span><br />
+          International Conference on Intelligent Computing and Communication ICICC-2024<br />
+          <span className='text-orange-500'>25th & 26st July 2024</span><br />
           Organized by: Department of Computer Science and Engineering
         </p>
       </div>

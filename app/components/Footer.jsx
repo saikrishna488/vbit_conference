@@ -1,4 +1,5 @@
 import React from 'react';
+import GoogleMap from './GoogleMap';
 
 const Footer = () => {
     return (
@@ -6,7 +7,8 @@ const Footer = () => {
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
                 {/* Left Section */}
                 <div className="mb-4 md:mb-0">
-                    <img src="/vbit.png" alt="Footer Logo" className="w-24" />
+                    {/* <img src="/vbit.png" alt="Footer Logo" className="w-24" /> */}
+                    <GoogleMap/>
                 </div>
 
                 {/* Middle Section */}

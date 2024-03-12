@@ -2,6 +2,7 @@ import React from 'react';
 
 const Guidelines = () => {
   return (
+    <>
     <div className=" mx-auto p-8 bg-white">
       <h1  className="text-xl md:text-4xl font-bold mb-4">Submission Guidelines</h1>
       <p className="mb-4">Submissions prepared as per Springer template should be submitted to the following link.</p>
@@ -11,6 +12,14 @@ const Guidelines = () => {
       <p className="mb-4">Paper Submission Deadline: 30th April 2024</p>
       <p className="mb-4">Paper Submission Link: <a href="#" className="text-blue-500 hover:underline">Click Here</a></p>
     </div>
+    <div className=" bg-gray-100 p-4 bg-white">
+    <h1  className="text-xl md:text-4xl font-bold mb-4">Visa Guidelines</h1>
+        <p className="mb-4">A conference visa is a type of travel permit issued by the government of the country where you want to travel to attend conferences. It allows foreign nationals to enter and stay within their country for a limited time period to participate in conferences, seminars, workshops, or similar events.</p>
+        <p className="mb-4">Conference VISA guidelines for India can be accessed using the official link of Government of India</p>
+        <p className="mb-4"><a href="https://www.mha.gov.in/sites/default/files/2022-07/ForeigD-FAQs-on-ConferenceVisa.pdf" className="text-blue-500 hover:underline">Click here</a> to visit the official website</p>
+      </div>
+    </>
+    
   );
 };
 
