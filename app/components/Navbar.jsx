@@ -29,19 +29,16 @@ const Navbar = () => {
 
     const desktopView = () => {
         return (
-            <nav className='bg-[#111042] p-5 flex justify-center items-center gap-5 '>
-                <img src="vbit2.png" className='h-14' alt="" />
+            <nav className='bg-orange-500 p-5 flex justify-center items-center gap-5 '>
                 <ul className='flex text-white gap-5'>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/")}>Home</li>
-                    <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/conference")}>About conference</li>
+                    <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/important-dates")}>Important Dates</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/registrations")}>Online Registrations</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/speakers")}>Speakers</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/committee")}>Committee</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/sponsorships")}>Sponsorship</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/contacts")}>Contacts</li>
-
                 </ul>
-                <img src="springer.jpg" className='h-14' alt="" />
             </nav>
         );
     };
