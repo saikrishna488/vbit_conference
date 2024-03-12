@@ -14,8 +14,9 @@ const Footer = () => {
                 {/* Middle Section */}
                 <div className="text-center md:text-left">
                     <h3 className="font-bold mb-2">Address</h3>
-                    <p className="mb-4">Aushapur, Ghatkesar, near HPCL, Hyderabad, Telangana 501301</p>
                     <p>Vignana Bharathi Institute of Technology</p>
+                    <p className="mb-4">Aushapur, Ghatkesar, near HPCL, Hyderabad, Telangana 501301 ,India</p>
+                    
                 </div>
 
                 {/* Right Section */}
