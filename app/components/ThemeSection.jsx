@@ -9,7 +9,7 @@ const ThemeSection = () => {
                 </div>
                 <div className="md:w-1/2 md:ml-6">
                     <h2 className="text-3xl font-bold text-orange-500 mb-4">Theme of the Conference</h2>
-                    <p className="text-lg">
+                    <p className="text-lg text-justify">
                         <strong>IC-ACIST</strong> expresses the importance of upgrading the research in Information Technology and Engineering. It motivates to provide a worldwide platform to researchers far and widespread by exploring their innovations in the field of science and technology. The mission is to promote and improve the research and development related to Information Technology and Engineering. The essential objective of the conference is to assist the researchers in discovering the global linkage for future joint efforts in their academic outlook.
                     </p>
                 </div>
