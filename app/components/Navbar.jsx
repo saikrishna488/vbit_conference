@@ -45,6 +45,7 @@ const Navbar = () => {
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/registrations")}>Online Registrations</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/speakers")}>Speakers</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/committee")}>Committee</li>
+                    <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/guidelines")}>Guidelines</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/sponsorships")}>Sponsorship</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/contacts")}>Contacts</li>
                 </ul>
