@@ -15,7 +15,7 @@ const HeroSection = () => {
                     <h1 className="text-4xl lg:text-5xl font-bold mb-4">Welcome to VBIT International Conference</h1>
                     <p className="text-lg mb-4">International Conference on Advances in Computing and Innovation in Science and Technology(IC-ACIST'24)</p>
                     <p className="text-lg mb-8">Technically co-sponsored by IEEE</p>
-                    <p className="text-lg mb-8">August 08-09, 2024 at VBIT Hyderabad, Telangana ,India</p>
+                    <p className="text-lg mb-8">July 25-26, 2024 at VBIT Hyderabad, Telangana ,India</p>
                     <div className="flex flex-col md:flex-row md:space-x-4">
                         <button className="bg-white text-purple-800 px-6 py-3 rounded-full hover:bg-purple-300 hover:text-white transition duration-300 mb-2 md:mb-0">Download Brochure</button>
                         <button className="bg-white text-purple-800 px-6 py-3 rounded-full hover:bg-purple-300 hover:text-white transition duration-300 mb-2 md:mb-0" onClick={()=> router.push('/guidelines')}>Presentation Guidelines</button>

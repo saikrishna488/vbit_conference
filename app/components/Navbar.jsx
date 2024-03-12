@@ -41,7 +41,7 @@ const Navbar = () => {
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/contacts")}>Contacts</li>
 
                 </ul>
-                <img src="ieee.png" className='h-14' alt="" />
+                <img src="springer.jpg" className='h-14' alt="" />
             </nav>
         );
     };
