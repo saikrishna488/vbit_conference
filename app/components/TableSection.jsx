@@ -35,7 +35,7 @@ const TableSection = () => {
               <td className="border px-4 py-2">200$</td>
             </tr>
             <tr>
-              <td className="border px-4 py-2">Faculty / Academicians (IEEE Members)</td>
+              <td className="border px-4 py-2">Faculty / Academicians (members)</td>
               <td className="border px-4 py-2">Rs. 8000</td>
               <td className="border px-4 py-2">Rs. 7000</td>
               <td className="border px-4 py-2">225$</td>
@@ -49,7 +49,7 @@ const TableSection = () => {
               <td className="border px-4 py-2">150$</td>
             </tr>
             <tr>
-              <td className="border px-4 py-2">Research Scholars, UG and PG Students (IEEE Members)</td>
+              <td className="border px-4 py-2">Research Scholars, UG and PG Students ( Members)</td>
               <td className="border px-4 py-2">Rs. 6000</td>
               <td className="border px-4 py-2">Rs. 5000</td>
               <td className="border px-4 py-2">175$</td>

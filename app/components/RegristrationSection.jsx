@@ -10,7 +10,7 @@ const RegistrationSection = () => {
           <a href="#" className="bg-white text-purple-800 font-semibold py-2 px-4 rounded mb-4">Click here Register For Indian Authors/Participants</a>
           <a href="#" className="bg-white text-purple-800 font-semibold py-2 px-4 rounded mb-4">Click here Register For Foreign Authors/Participants</a>
         </div>
-        <p className="text-xs md:text-base w-full md:w-3/4 text-red-500 bg-black p-4 rounded">In adherence to IEEE publication guidelines, only papers presented at the conference will be considered for recommendation to IEEE Xplore. Authors must accurately choose the registration category and make the corresponding payment. Any deviation found will result in the removal of their papers from the conference, and registration fees will not be refunded.</p>
+        <p className="text-xs md:text-base w-full md:w-3/4 text-red-500 bg-black p-4 rounded">In adherence to Springer publication guidelines, only papers presented at the conference will be considered for recommendation to Springer. Authors must accurately choose the registration category and make the corresponding payment. Any deviation found will result in the removal of their papers from the conference, and registration fees will not be refunded.</p>
       </div>
     </div>
   );

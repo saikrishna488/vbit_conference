@@ -27,12 +27,21 @@ const Navbar = () => {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
+    function selectMethod(event) {
+        const selectedOption = event.target.value;
+        // Do something based on the selected option
+        console.log('Selected option:', selectedOption);
+    }
+
+
     const desktopView = () => {
         return (
             <nav className='bg-orange-500 p-5 flex justify-center items-center gap-5 '>
                 <ul className='flex text-white gap-5'>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/")}>Home</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/important-dates")}>Important Dates</li>
+                    <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/schedule")}>Schedule</li>
+                    <li className='cursor-pointer hover:text-blue-500 relative' onClick={() => router.push("/submission")}>Paper Submission</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/registrations")}>Online Registrations</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/speakers")}>Speakers</li>
                     <li className='cursor-pointer hover:text-blue-500' onClick={() => router.push("/committee")}>Committee</li>
@@ -49,7 +58,7 @@ const Navbar = () => {
                 <div className='flex items-center justify-between gap-10 w-full'>
                     <img src="vbit2.png" className='h-14' alt="" />
                     <div className='cursor-pointer text-white' onClick={() => setMenu(!menu)}>
-                    <GiHamburgerMenu  size={30}/>
+                        <GiHamburgerMenu size={30} />
                     </div>
                 </div>
 
