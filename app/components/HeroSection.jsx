@@ -6,9 +6,9 @@ const HeroSection = () => {
 
     const router = useRouter();
     return (
-        <div className="relative bg-cover bg-center bg-gradient-to-r from-purple-800 to-purple-600 text-white py-20 px-6 md:px-12" style={{backgroundImage: `url("/vbit_bg.jpeg")`}}>
+        <div className="relative bg-cover bg-center text-black bg-white py-20 px-6 md:px-12" >
             {/* Overlay for text */}
-            <div className="absolute inset-0 bg-blue-900 opacity-50"></div>
+            <div className="absolute inset-0 opacity-50"></div>
             
             <div className="container mx-auto relative z-10 flex flex-col lg:flex-row items-center">
                 <div className="lg:w-1/2 mb-6 lg:mb-0">

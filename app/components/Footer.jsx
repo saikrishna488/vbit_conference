@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="bg-footer py-8 px-4 md:px-12 text-white">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
                 {/* Left Section */}
-                <div className="mb-4 md:mb-0">
+                <div className="mb-4 md:mb-0 flex items-center">
                     {/* <img src="/vbit.png" alt="Footer Logo" className="w-24" /> */}
                     <GoogleMap/>
                 </div>

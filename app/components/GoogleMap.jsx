@@ -2,11 +2,10 @@ import React from 'react';
 
 const GoogleMap = () => {
   return (
-    <div className="mapouter">
-      <div className="gmap_canvas">
+      <div className="overflow-hidden bg-transparent">
         <iframe
-          width="488"
-          height="355"
+          width="100%"
+          height="100%"
           id="gmap_canvas"
           src="https://maps.google.com/maps?q=vignana%20bharathi%20institute%20of%20technology&t=&z=13&ie=UTF8&iwloc=&output=embed"
           frameBorder="0"
@@ -15,23 +14,8 @@ const GoogleMap = () => {
           marginWidth="0"
           title="Google Map"
         ></iframe>
+        <a href="https://www.embedgooglemap.net" className="hidden">Embed Google Map</a>
       </div>
-      <br />
-      <style>{`
-        .mapouter {
-          position: relative;
-          text-align: right;
-          height: 355px;
-          width: 488px;
-        }
-        .gmap_canvas {
-          overflow: hidden;
-          background: none !important;
-          height: 355px;
-          width: 488px;
-        }
-      `}</style>
-    </div>
   );
 };
 
