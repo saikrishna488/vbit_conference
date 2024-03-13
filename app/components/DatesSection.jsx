@@ -10,10 +10,10 @@ const DatesSection = () => {
           <span className="font-semibold">20th May 2024</span> - Paper Submission Last Date
         </li>
         <li className="mb-2">
-          <span className="font-semibold">05th June 2024</span> - Acceptance Notification & Registrations
+          <span className="font-semibold">25th July 2024</span> - Acceptance Notification & Registrations
         </li>
         <li className="mb-2">
-          <span className="font-semibold">25th June 2024</span> - Start of Registration with Final Paper Submission
+          <span className="font-semibold">26th July 2024</span> - Start of Registration with Final Paper Submission
         </li>
       </ul>
     </div>
