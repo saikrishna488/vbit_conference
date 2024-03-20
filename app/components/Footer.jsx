@@ -23,8 +23,7 @@ const Footer = () => {
                 <div className="text-right">
                     <ul>
                         <li className="mb-2"><a href='/brochure.pdf' target="_blank" className="underline">Download Conference Brochure</a></li>
-                        <li className="mb-2"><a href="#" className="underline">Download Sponsorship Brochure</a></li>
-                        <li><a href="#" className="underline">Download NOC, MHA India</a></li>
+                        <li className="mb-2"><a href="/guidelines" className="underline">Guidelines</a></li>
                     </ul>
                 </div>
             </div>
