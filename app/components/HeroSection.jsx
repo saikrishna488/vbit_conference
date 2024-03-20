@@ -18,7 +18,7 @@ const HeroSection = () => {
                     <p className="text-lg mb-8">Technically co-sponsored by Springer</p>
                     <p className="text-lg mb-8">July 25-26, 2024 at VBIT Hyderabad, Telangana ,India</p>
                     <div className="flex flex-col md:flex-row md:space-x-4">
-                        <button className="bg-white text-purple-800 px-6 py-3 rounded-full hover:bg-purple-300 hover:text-white transition duration-300 mb-2 md:mb-0" ><a href='/brochure.pdf'>Download Brochure</a> </button>
+                        <button className="bg-white text-purple-800 px-6 py-3 rounded-full hover:bg-purple-300 hover:text-white transition duration-300 mb-2 md:mb-0" ><a href='/brochure.pdf' target="_blank">Download Brochure</a> </button>
                         <button className="bg-white text-purple-800 px-6 py-3 rounded-full hover:bg-purple-300 hover:text-white transition duration-300 mb-2 md:mb-0" onClick={()=> router.push('/guidelines')}>Presentation Guidelines</button>
                     </div>
                 </div>
